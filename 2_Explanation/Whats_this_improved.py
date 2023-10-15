@@ -1,3 +1,7 @@
+# Improved by CodeGPT
+# Die Tickerkürzel werden durch Klarnamen ersetzt
+
+
 import yfinance as yf
 import pandas as pd
 import streamlit as st
