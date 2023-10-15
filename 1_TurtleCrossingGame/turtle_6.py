@@ -62,7 +62,7 @@ def game_over():
 # Tastatursteuerung
 window.listen()
 window.onkeypress(move_up, "Up")
-window.onkeypress(move_down, "Down")
+# window.onkeypress(move_down, "Down")
 
 # Spiel-Loop
 speed = 0.1
