@@ -29,11 +29,13 @@ def move_up():
         player.sety(y)
 
 
-def move_down():
-    y = player.ycor()
-    if y > -250:
-        y -= 20
-        player.sety(y)
+# Turtle darf nur vorwärts laufen!
+# Fehler wurde auch durch CodeGPT gefixt
+# def move_down():
+#     y = player.ycor()
+#     if y > -250:
+#         y -= 20
+#         player.sety(y)
 
 
 # Autos erstellen
