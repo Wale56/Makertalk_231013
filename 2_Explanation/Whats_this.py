@@ -2,6 +2,9 @@
 # coding: utf-8
 # https://www.youtube.com/watch?v=e4wIdB1gkS4&t=183s
 
+# Für diese Demo wird das Streamlit Framework verwendet:
+# https://streamlit.io/
+
 import yfinance as yf
 import pandas as pd
 import streamlit as st
